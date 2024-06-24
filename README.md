@@ -15,10 +15,10 @@ String pathToWatch = "/path/to/directory";
 FileWatcherService fileWatcherService = new FileWatcherService(pathToWatch);
 ```
 3.	Start the file watcher service:
-java
-Copy
+```java
 fileWatcherService.startWatching();
 The startWatching() method will continuously monitor the specified directory and print out information about any file creation, modification, or deletion events.
+```
 
 ## Example
 Here's an example of how to use the **FileWatcherService**
